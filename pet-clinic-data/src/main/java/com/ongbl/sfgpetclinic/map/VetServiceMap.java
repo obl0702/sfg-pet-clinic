@@ -7,6 +7,7 @@ package com.ongbl.sfgpetclinic.map;
 import com.ongbl.sfgpetclinic.model.Vet;
 import com.ongbl.sfgpetclinic.services.CrudService;
 import com.ongbl.sfgpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
@@ -14,6 +15,7 @@ import java.util.Set;
  * @created: 2/11/2022
  * @author: boonloong
  */
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
