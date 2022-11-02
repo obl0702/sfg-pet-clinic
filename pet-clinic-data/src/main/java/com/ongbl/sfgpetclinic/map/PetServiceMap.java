@@ -6,6 +6,7 @@ package com.ongbl.sfgpetclinic.map;
 
 import com.ongbl.sfgpetclinic.model.Pet;
 import com.ongbl.sfgpetclinic.services.CrudService;
+import com.ongbl.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 
@@ -13,7 +14,7 @@ import java.util.Set;
  * @created: 2/11/2022
  * @author: boonloong
  */
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
