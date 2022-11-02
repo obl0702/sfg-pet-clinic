@@ -4,16 +4,12 @@
 
 package com.ongbl.sfgpetclinic.services;
 
-import com.ongbl.sfgpetclinic.model.Owner;
 import com.ongbl.sfgpetclinic.model.Vet;
 
-import java.util.Set;
+/**
+ * @created: 2/11/2022
+ * @author: boonloong
+ */
+public interface VetService extends CrudService<Vet, Long>{
 
-public interface VetService {
-
-    Vet findById(Long id);
-
-    Vet save(Vet vet);
-
-    Set<Vet> findAll();
 }

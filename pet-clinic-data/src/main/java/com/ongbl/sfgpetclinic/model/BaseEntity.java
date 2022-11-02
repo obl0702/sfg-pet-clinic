@@ -6,6 +6,10 @@ package com.ongbl.sfgpetclinic.model;
 
 import java.io.Serializable;
 
+/**
+ * @created: 1/11/2022
+ * @author: boonloong
+ */
 public class BaseEntity implements Serializable {
     private Long id;
 

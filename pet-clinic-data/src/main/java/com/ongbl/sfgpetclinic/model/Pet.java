@@ -2,6 +2,10 @@ package com.ongbl.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
+/**
+ * @created: 1/11/2022
+ * @author: boonloong
+ */
 public class Pet extends BaseEntity{
 
     private PetType petType;
