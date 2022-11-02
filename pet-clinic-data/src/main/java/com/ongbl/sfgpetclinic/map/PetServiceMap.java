@@ -5,10 +5,8 @@
 package com.ongbl.sfgpetclinic.map;
 
 import com.ongbl.sfgpetclinic.model.Pet;
-import com.ongbl.sfgpetclinic.services.CrudService;
 import com.ongbl.sfgpetclinic.services.PetService;
 import org.springframework.stereotype.Service;
-
 import java.util.Set;
 
 /**
@@ -30,7 +28,7 @@ public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetS
 
     @Override
     public Pet save(Pet object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 
     @Override
