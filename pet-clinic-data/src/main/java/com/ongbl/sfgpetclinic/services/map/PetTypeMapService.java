@@ -2,9 +2,12 @@
  * Created by boonloong
  */
 
-package com.ongbl.sfgpetclinic.map;
+/*
+ * Created by boonloong
+ */
 
-import com.ongbl.sfgpetclinic.model.Pet;
+package com.ongbl.sfgpetclinic.services.map;
+
 import com.ongbl.sfgpetclinic.model.PetType;
 import com.ongbl.sfgpetclinic.services.PetTypeService;
 import org.springframework.stereotype.Service;

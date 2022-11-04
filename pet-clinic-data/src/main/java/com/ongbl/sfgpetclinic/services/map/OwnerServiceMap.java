@@ -2,7 +2,11 @@
  * Created by boonloong
  */
 
-package com.ongbl.sfgpetclinic.map;
+/*
+ * Created by boonloong
+ */
+
+package com.ongbl.sfgpetclinic.services.map;
 
 import com.ongbl.sfgpetclinic.model.Owner;
 import com.ongbl.sfgpetclinic.model.Pet;
