@@ -4,6 +4,9 @@
 
 package com.ongbl.sfgpetclinic.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -14,6 +17,8 @@ import java.io.Serializable;
  * @created: 1/11/2022
  * @author: boonloong
  */
+@Getter
+@Setter
 @MappedSuperclass
 public class BaseEntity implements Serializable {
     @Id
