@@ -5,7 +5,6 @@
 package com.ongbl.sfgpetclinic.services.springdatajpa;
 
 import com.ongbl.sfgpetclinic.model.PetType;
-import com.ongbl.sfgpetclinic.model.Vet;
 import com.ongbl.sfgpetclinic.repositories.PetTypeRepository;
 import com.ongbl.sfgpetclinic.services.PetTypeService;
 import org.springframework.context.annotation.Profile;
