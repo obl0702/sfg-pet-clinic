@@ -4,10 +4,14 @@
 
 package com.ongbl.sfgpetclinic.controllers;
 
+import com.ongbl.sfgpetclinic.model.Vet;
 import com.ongbl.sfgpetclinic.services.VetService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.Set;
 
 /**
  * @created: 2/11/2022
@@ -27,5 +31,10 @@ public class VetController {
 
         model.addAttribute("vets", vetService.findAll());
         return "vets/index";
+    }
+
+    @RequestMapping("/api/vets")
+    public @ResponseBody Set<Vet> getVetsJson(){
+        return vetService.findAll();
     }
 }
