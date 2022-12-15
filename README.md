@@ -2,11 +2,19 @@
 
 #SFG Pet Clinic
 
-This app implementing Spring Pet Clinic following the online course and example in springframeworkguru/sfg-pet-clinic.
-Contained in this repo is which I redesigned the website "Spring Pet Clinic" using following:
+This project was built step-by-step from original Spring Pet Clinic following the online course and example in springframeworkguru/sfg-pet-clinic.
+It has two modules which are pet-clinic-data and pet-clinic-web.
 
+## Stack of technologies used in this project
 * Maven
-* Java 8
-* H2
-* Spring
+* Hibernate
+* H2 Database
+* Spring Data JPA
+* Spring MVC
+* Project Lombok
 * Thymeleaf
+* Bootstrap
+* JQuery
+* WRO4J
+* JUnit 5
+* Mockito
