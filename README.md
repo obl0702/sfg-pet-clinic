@@ -2,4 +2,11 @@
 
 #SFG Pet Clinic
 
-This repo is for my online course called Spring Framework 5: Beginner to Guru. Contained in this repo is which I redesigned the website "Spring Pet Clinic"
+This app implementing Spring Pet Clinic following the online course and example in springframeworkguru/sfg-pet-clinic.
+Contained in this repo is which I redesigned the website "Spring Pet Clinic" using following:
+
+* Maven
+* Java 8
+* H2
+* Spring
+* Thymeleaf
